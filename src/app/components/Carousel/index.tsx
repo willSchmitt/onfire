@@ -3,11 +3,11 @@
 import { useState, useEffect } from "react";
 import Image from "next/image";
 import { StaticImageData } from "next/image";
-import image1 from "../../../../../public/slide1.jpeg";
-import image2 from "../../../../../public/slide2.jpeg";
-import image3 from "../../../../../public/slide3.jpeg";
-import image4 from "../../../../../public/slide4.jpeg";
-import image5 from "../../../../../public/slide5.png";
+import image1 from "../../../../public/slide1.jpeg";
+import image2 from "../../../../public/slide2.jpeg";
+import image3 from "../../../../public/slide3.jpeg";
+import image4 from "../../../../public/slide4.jpeg";
+import image5 from "../../../../public/slide5.png";
 
 // Interface for image data
 interface ImageData {

@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import Image from "next/image";
+
+import BgPage from "../public/bgPage.jpg";
 import "./globals.css";
 
 const geistSans = localFont({
@@ -14,7 +17,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "🔥ONFIRE",
+  title: "🔥 ONFIRE",
 };
 
 export default function RootLayout({
@@ -25,7 +28,7 @@ export default function RootLayout({
   return (
     <html lang="pt">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} min-h-screen bg-gray-900 antialiased relative`}
       >
         {children}
       </body>
