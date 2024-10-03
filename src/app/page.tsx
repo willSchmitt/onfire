@@ -1,6 +1,8 @@
-import { CheckCircle } from "lucide-react";
 import Image from "next/image";
 import ImageSlider from "./components/Carousel";
+import { ProgrammingOnFire } from "./components/Programming";
+import { AboutOnFire } from "./components/About";
+// import { QuestionsOnFire } from "./components/Questions";
 
 export default function HomePage() {
   return (
@@ -30,20 +32,7 @@ export default function HomePage() {
             id="home"
             className="min-h-screen flex items-center justify-center"
           >
-            <div className="container mx-auto px-4 text-center">
-              <h1 className="text-5xl font-bold mb-6">O QUE É O ONFIRE?</h1>
-              <p className="text-xl text-gray-200 mb-10 max-w-2xl mx-auto">
-                A Conferência OnFire é um evento cristão de avivamento
-                espiritual, que busca promover momentos intensos de adoração,
-                oração, e palestras voltadas à renovação da fé e ao
-                desenvolvimento espiritual dos participantes. O foco principal é
-                criar um ambiente onde as pessoas possam se conectar de forma
-                mais profunda com sua espiritualidade, buscando um "avivamento"
-                em suas vidas. O termo "OnFire" reflete a ideia de estar
-                espiritualmente "em chamas", ou seja, cheio de fervor e paixão
-                por Deus.
-              </p>
-            </div>
+            <AboutOnFire />
           </section>
 
           <section
@@ -63,40 +52,15 @@ export default function HomePage() {
             id="cta"
             className="min-h-screen flex items-center justify-center"
           >
-            <div className="container mx-auto px-4 text-center">
-              <h1 className="text-4xl font-bold mb-6">Programação</h1>
-              <p className="text-xl text-gray-200 mb-10 max-w-2xl mx-auto">
-                Join thousands of satisfied users and take your productivity to
-                the next level.
-              </p>
-              <form className="flex flex-col sm:flex-row justify-center items-center gap-4 max-w-md mx-auto">
-                {/* <Input
-                  type="email"
-                  placeholder="Enter your email"
-                  className="bg-gray-700 text-gray-100 border-gray-600 focus:border-gray-500"
-                />
-                <Button className="bg-gray-100 text-gray-800 hover:bg-gray-200 whitespace-nowrap">
-                  Sign Up Free
-                </Button> */}
-              </form>
-            </div>
+            <ProgrammingOnFire />
           </section>
 
-          <section
+          {/* <section
             id="contact"
             className="min-h-screen flex items-center justify-center bg-gray-900 bg-opacity-80"
           >
-            <div className="container mx-auto px-4 text-center">
-              <h2 className="text-3xl font-bold mb-6">Get in Touch</h2>
-              <p className="text-xl text-gray-200 mb-10 max-w-2xl mx-auto">
-                Have questions or need support? Our team is here to help you
-                succeed.
-              </p>
-              {/* <Button className="bg-gray-100 text-gray-800 hover:bg-gray-200">
-                Contact Us
-              </Button> */}
-            </div>
-          </section>
+            <QuestionsOnFire />
+          </section> */}
         </main>
 
         <footer className="bg-gray-800 bg-opacity-90 py-8">
