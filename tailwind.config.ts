@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+const { mauve, violet } = require("@radix-ui/colors");
 
 const config: Config = {
   content: [
@@ -14,10 +15,26 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        ...mauve,
+        ...violet,
       },
-      backgroundImage: {
-        bgPage: "url('/src/public/bgPage.jpg')",
+      keyframes: {
+        slideDown: {
+          from: { height: "0px" },
+          to: { height: "var(--radix-accordion-content-height)" },
+        },
+        slideUp: {
+          from: { height: "var(--radix-accordion-content-height)" },
+          to: { height: "0px" },
+        },
       },
+      animation: {
+        slideDown: "slideDown 300ms cubic-bezier(0.87, 0, 0.13, 1)",
+        slideUp: "slideUp 300ms cubic-bezier(0.87, 0, 0.13, 1)",
+      },
+    },
+    backgroundImage: {
+      bgPage: "url('/src/public/bgPage.jpg')",
     },
   },
   plugins: [],

@@ -2,7 +2,7 @@ import Image from "next/image";
 import ImageSlider from "./components/Carousel";
 import { ProgrammingOnFire } from "./components/Programming";
 import { AboutOnFire } from "./components/About";
-// import { QuestionsOnFire } from "./components/Questions";
+import { QuestionsOnFire } from "./components/Questions";
 
 export default function HomePage() {
   return (
@@ -24,7 +24,19 @@ export default function HomePage() {
               }}
               width={1600}
               height={561}
-              className="min-h-screen"
+              className="min-h-screen hidden sm:block w-full"
+            />
+
+            <Image
+              src="/bg-responsive.jpeg"
+              alt="Imagem da conferência On Fire."
+              style={{
+                width: "100%",
+                height: "100%",
+              }}
+              width={1600}
+              height={561}
+              className="min-h-screen block sm:hidden w-full"
             />
           </section>
 
@@ -41,7 +53,7 @@ export default function HomePage() {
           >
             <div className="container mx-auto px-4">
               <h2 className="text-3xl font-bold mb-12 text-center">
-                🔥 VEJA AS ÚLTIMAS EDIÇÕES DA CONFERÊNCIA ONFIRE 🔥
+                VEJA AS ÚLTIMAS EDIÇÕES DA CONFERÊNCIA ONFIRE
               </h2>
 
               <ImageSlider />
@@ -55,20 +67,20 @@ export default function HomePage() {
             <ProgrammingOnFire />
           </section>
 
-          {/* <section
+          <section
             id="contact"
-            className="min-h-screen flex items-center justify-center bg-gray-900 bg-opacity-80"
+            className="min-h-screen flex  flex-col items-center justify-center bg-gray-900 bg-opacity-80"
           >
+            <h2 className="text-3xl font-bold mb-12 text-center">
+              ESTÁ COM ALGUMA DÚVIDA?
+            </h2>
             <QuestionsOnFire />
-          </section> */}
+          </section>
         </main>
 
         <footer className="bg-gray-800 bg-opacity-90 py-8">
           <div className="container mx-auto px-4 text-center text-gray-400">
-            <p>
-              &copy; {new Date().getFullYear()} Your Company. All rights
-              reserved.
-            </p>
+            <p>&copy; {new Date().getFullYear()}. All rights reserved.</p>
           </div>
         </footer>
       </div>

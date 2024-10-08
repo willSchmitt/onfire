@@ -80,7 +80,7 @@ export default function ImageSlider(): JSX.Element {
   return (
     <div className="relative w-full mx-auto">
       <div
-        className="relative h-[20rem] object-contain mx-32 group hover"
+        className="relative h-[20rem] object-contain group hover"
         onMouseOver={handleMouseOver}
         onMouseLeave={handleMouseLeave}
       >
