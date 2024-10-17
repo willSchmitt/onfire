@@ -32,7 +32,7 @@ export function ProgrammingOnFire() {
             14:00 | LOUVOR
           </p>
           <p className="text-xl text-gray-200 mb-10 max-w-2xl mx-auto">
-            14:30 PLENÁRIA 1
+            14:30 | PLENÁRIA 1
           </p>
           <p className="text-xl text-gray-200 mb-10 max-w-2xl mx-auto">
             16:00 | LAB'S
