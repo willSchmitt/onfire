@@ -2,9 +2,15 @@ export function GroupWhatsApp() {
   return (
     <>
       <div className="container mx-auto px-4 text-center flex flex-col gap-12 items-center justify-center">
-        <h1 className="text-5xl font-bold mb-6 leading-snug max-md:text-3xl max-md:leading-tight">
-          GARANTA A SUA VAGA EXCLUSIVA PARA A CONFERÊNCIA 2025
-        </h1>
+        <div>
+          <h1 className="text-5xl font-bold mb-6 leading-snug max-md:text-3xl max-md:leading-tight">
+            GARANTA A SUA VAGA EXCLUSIVA PARA A CONFERÊNCIA 2025
+          </h1>
+          <p className="text-2xl font-bold mb-6 leading-snug max-md:text-xl max-md:leading-tight">
+            Informações Exclusivas de Pré lançamento, informações, spoliers e
+            comunhão durante todo ano de 2025 para não deixar a chama se apagar.
+          </p>
+        </div>
         <a
           href="https://chat.whatsapp.com/DFdvj4x0ZA2KGzlbEFRxwh"
           target="_blank"
