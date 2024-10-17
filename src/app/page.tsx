@@ -3,6 +3,7 @@ import ImageSlider from "./components/Carousel";
 import { ProgrammingOnFire } from "./components/Programming";
 import { AboutOnFire } from "./components/About";
 import { QuestionsOnFire } from "./components/Questions";
+import { GroupWhatsApp } from "./components/GroupWhatsApp";
 
 export default function HomePage() {
   return (
@@ -38,6 +39,13 @@ export default function HomePage() {
               height={561}
               className="min-h-screen block sm:hidden w-full"
             />
+          </section>
+
+          <section
+            id="home"
+            className="min-h-screen flex items-center justify-center"
+          >
+            <GroupWhatsApp />
           </section>
 
           <section
