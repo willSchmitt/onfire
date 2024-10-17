@@ -9,7 +9,7 @@ export function ProgrammingOnFire() {
             19:00 | CHECK-IN
           </p>
           <p className="text-xl text-gray-200 mb-10 max-w-2xl mx-auto">
-            19:30 | ABERTURA |LOUVOR
+            19:30 | ABERTURA | LOUVOR
           </p>
           <p className="text-xl text-gray-200 mb-10 max-w-2xl mx-auto">
             20:30 | PLENÁRIA 1
