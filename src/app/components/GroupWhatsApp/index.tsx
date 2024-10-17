@@ -2,7 +2,7 @@ export function GroupWhatsApp() {
   return (
     <>
       <div className="container mx-auto px-4 text-center flex flex-col gap-12 items-center justify-center">
-        <h1 className="text-5xl font-bold mb-6 leading-snug">
+        <h1 className="text-5xl font-bold mb-6 leading-snug max-md:text-3xl max-md:leading-tight">
           GARANTA A SUA VAGA COM PREÇO ESPECIAL PARA A CONFERÊNCIA 2025
         </h1>
         <a
