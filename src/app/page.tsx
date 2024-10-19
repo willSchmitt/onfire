@@ -41,12 +41,12 @@ export default function HomePage() {
             />
           </section>
 
-          {/* <section
+          <section
             id="home"
             className="min-h-screen flex items-center justify-center bg-gray-900 bg-opacity-80"
           >
             <GroupWhatsApp />
-          </section> */}
+          </section>
 
           <section
             id="home"
