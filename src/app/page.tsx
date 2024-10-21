@@ -88,7 +88,7 @@ export default function HomePage() {
             id="contact"
             className="min-h-screen flex  flex-col items-center justify-center bg-gray-900 bg-opacity-80"
           >
-            <h2 className="text-5xl font-bold mb-6 leading-snug max-md:text-3xl max-md:leading-tight">
+            <h2 className="text-5xl font-bold mb-6 leading-snug max-md:text-3xl max-md:text-center max-md:leading-tight">
               VEM FICAR MAIS JUNTO DA GENTE
             </h2>
             <LinksMoreLife />

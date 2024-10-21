@@ -6,7 +6,7 @@ import { CiLocationOn } from "react-icons/ci";
 export function LinksMoreLife() {
   return (
     <>
-      <div className="container mx-auto px-4 text-center flex gap-12 items-center justify-center">
+      <div className="container mx-auto px-4 text-center flex gap-12 items-center justify-center ">
         <div className="flex items-center justify-center gap-10">
           <a href="https://www.instagram.com/morelifersl/" target="_blank">
             <LuInstagram size="2.5rem" />
