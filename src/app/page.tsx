@@ -5,6 +5,7 @@ import { AboutOnFire } from "./components/About";
 import { QuestionsOnFire } from "./components/Questions";
 import { GroupWhatsApp } from "./components/GroupWhatsApp";
 import { PicturesOnFire } from "./components/PicturesOnFire";
+import { LinksMoreLife } from "./components/LinksMoreLife";
 
 export default function HomePage() {
   return (
@@ -86,6 +87,16 @@ export default function HomePage() {
           <section
             id="contact"
             className="min-h-screen flex  flex-col items-center justify-center bg-gray-900 bg-opacity-80"
+          >
+            <h2 className="text-5xl font-bold mb-6 leading-snug max-md:text-3xl max-md:leading-tight">
+              VEM FICAR MAIS JUNTO DA GENTE
+            </h2>
+            <LinksMoreLife />
+          </section>
+
+          <section
+            id="contact"
+            className="min-h-screen flex flex-col items-center justify-center"
           >
             <h2 className="text-3xl font-bold mb-12 text-center">
               ESTÁ COM ALGUMA DÚVIDA?
